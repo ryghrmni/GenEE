@@ -1,0 +1,1041 @@
+chunk_id,prompt
+TST_0001,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""A dam broke along the river, flooding the town of Chokwe in the middle of the night and trapping several unprepared residents; this accounted for nearly half of the death toll.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0002,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Their presence was at first tolerated by Prince Sihanouk, the Cambodian head of state, but domestic resistance combined with China and North Vietnam continuing to provide aid to the anti-government Khmer Rouge alarmed Sihanouk and caused him to go to Moscow to request the Soviets rein in the behavior of North Vietnam.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0003,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The developing cyclone was first detected on April 3, while situated well to the northeast of Vanuatu.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0004,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The storm's large fetch generated enormous swells as far away as Australia's Eastern Seaboard, where surfers took advantage of the abnormally intense conditions and two swimmers drowned.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0005,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The origins to the conflict can be traced back to Jewish immigration and sectarian conflict in Mandatory Palestine between Jews and Arabs.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0006,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""At the onset of the coup, the rebels seized Villamor Airbase, Fort Bonifacio, Sangley Airbase, Mactan Airbase in Cebu, and portions of Camp Aguinaldo.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0007,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The 2008 Kabul Serena Hotel attack was an attack on the gym of the Kabul Serena Hotel, in Kabul, Afghanistan on January 14, 2008 for which the Taliban claimed responsibility.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0008,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""After a crowd gathered in the area, a teen-aged suicide bomber on a motorcycle set off a second explosion, killing many people on the spot.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0009,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Southern state legislatures had passed and maintained a series of discriminatory requirements and practices that had disenfranchised most of the millions of African Americans across the South throughout the 20th century.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0010,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Placed throughout Boston, Massachusetts, and the surrounding cities of Cambridge and Somerville, these devices were part of a guerrilla marketing advertising campaign for \""Aqua Teen Hunger Force Colon Movie Film for Theaters\"", a film based on \""Aqua Teen Hunger Force\"".\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0011,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The site of the massacre has been identified as the present-day Suicide Bay, facing the island outcrops known as The Doughboys.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0012,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The tour was undertaken to celebrate the release of Savage Garden's 10th anniversary greatest hits album.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0013,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""They have brought their talents to the fore as the festival's continued growth is very much due to their commitment.\""\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0014,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""In particular, it transformed Cuba's relationship with the United States, although efforts to improve diplomatic relations have gained momentum in recent years.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0015,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""There were eight matches on for the event's card.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0016,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Hurricane Paul was a strong tropical cyclone that threatened the Baja California peninsula during October 2012.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0017,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""In the treaty signed Demetrius received some fortresses in Attica but Athens was freed from a Macedonian garrison.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0018,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""They knowingly attempted to land using an inappropriate navigation signal and ignored alarms warning them of an impending crash.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0019,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The fire started on August 17, 2013, during the 2013 California wildfire season, and grew to be (at the time) the third-largest wildfire in California's history, having burned .\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0020,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Denmark finished in second place, with one silver and one bronze won.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0021,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The show has received positive criticism, complimenting their showmanship, as well as the longevity of their signature sound and look.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0022,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""As of January 2016, there have been more than 800 fatalities and almost 3,000 injuries.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0023,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""A subsequent incident led to a further ban, which was later lifted.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0024,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""In particular, the 9th Parachute Battalion, which was assigned the task of destroying the Merville artillery battery, was only able to gather up a fraction of its strength before it had to attack the battery, with the result that the depleted force suffered heavy casualties.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0025,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The seventeen-day war caused thousands of casualties on both sides and witnessed the largest engagement of armored vehicles and the largest tank battle since World War II.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0026,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The Greeks were later assisted by the Russian Empire, Great Britain, and the Kingdom of France, while the Ottomans were aided by their North African vassals, the eyalets of Egypt, Algeria, and Tripolitania, and the Beylik of Tunis.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0027,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The Arauco War was a long-running conflict between colonial Spaniards and the Mapuche people, mostly fought in the Araucanía.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0028,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""All three of them, Ron Launius, Billy DeVerell, and Joy Miller, along with their accomplice Barbara Richardson, died from extensive blunt-force trauma injuries.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0029,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The First Ivorian Civil War was a conflict in the Ivory Coast (also known as Côte d'Ivoire) that began in 2002.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0030,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The purpose of the march was to advocate for the civil and economic rights of African Americans.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0031,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Observers estimated that 75–80% of the marchers were black.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0032,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""In two provinces in Mozambique, the cyclone damaged or destroyed 25,000 houses, leaving at least 23,000 people homeless.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0033,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""This was last competed as a world championship event in 1994 between nations.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0034,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""In trials at the International Criminal Tribunal for the former Yugoslavia (ICTY) and the Court of Bosnia and Herzegovina members of the group who carried out the killings, including their leader, Darko Mrđa, were convicted and sentenced to various terms of imprisonment.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0035,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""After hitting Davao Oriental and Compostela Valley provinces, Bopha shifted through the southern and central regions of Mindanao, cutting power to two provinces and triggering landslides.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0036,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""There were fifty-four passengers on board (four of whom were reported to be children) and a crew of four.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0037,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The crash sparked large controversy and trust issue in every Indonesian built aircraft.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0038,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""On December 18, 2009, KROQ-FM released a compilation called \""KROQ Almost Acoustic Christmas 2009\"", a benefit album with proceeds benefiting Para Los Ninos and the Al Wooten Heritage Center.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0039,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Marley then left for Germany to receive cancer treatment which eventually was not successful but prolonged his life 6 months more than any medical clinic in the United States predicted, as Marley died in May 1981.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0040,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Referee David Manning awarded the match and the title to the Fantastics despite of the fact that Manning's pin count of a Fantastics member pinning a Midnight Express member started after referee Rick Hazzard's pin count of a Midnight Express member pinning a Fantastics member ended at 3.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0041,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Runners-up Jim Furyk, Colin Montgomerie, and Phil Mickelson all failed to par the 72nd hole.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0042,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Hurricane Gabrielle was a powerful tropical cyclone that caused nine fatalities in the United States and Canada, despite remaining hundreds of miles offshore.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+TST_0043,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The earthquake also affected Chile's capital city Santiago with great intensity.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0001,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""In the aftermath of the engagement, a French battle squadron that formed part of the developing Atlantic campaign of May 1794 pursued both ships for the rest of the day; their quarry eventually escaped after dark.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0002,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The 1957 crash of a Douglas C-47 plane named \""Mt.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0003,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The tour was managed by touring veteran Scotty Ross, who has also managed the tours of Poison, Dio, Saliva and Celtic Woman.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0004,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Though initially forecast to make landfall in Cagayan Valley, the storm followed a more westerly path and was later forecast to make landfall in the Bicol Region and then pass through Bataan and Zambales before brushing past Metro Manila.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0005,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The 2011 revival was a two-day event on Friday and Saturday only.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0006,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The Atlantic campaign of May 1794 was a series of operations conducted by the British Royal Navy's Channel Fleet against the French Navy's Atlantic Fleet, with the aim of preventing the passage of a strategically important French grain convoy travelling from the United States to France.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0007,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Operation Corridor 92 (, \""Operacija Koridor 92\"") was the largest operation conducted during the Bosnian War by the Army of Republika Srpska (VRS) against the forces of the Croatian Defence Council (HVO) and the Croatian Army (HV) in the Bosanska Posavina region of northern Bosnia and Herzegovina between 24 June and 6 October 1992.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0008,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Due to incorrect automatic direction finder (ADF) readings caused by the thunderstorm, the plane strayed 15 km (9.3 mi) west from the procedural let-down track.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0009,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The Fountain Valley massacre was a mass shooting that occurred on the afternoon of 6 September 1972 at the Fountain Valley Golf Course in St. Croix, United States Virgin Islands.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0010,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""CMLL did not hold any special events on Fridays that would force a cancellation such as a pay-per-view (PPV).\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0011,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Ships in the vicinity of the storm reported a much stronger tropical cyclone than initially suggested.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0012,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""However, much of the property and crop damage wrought by the hurricane was due to the torrential rainfall it produced in low-lying areas, setting off record floods.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0013,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""On Wednesday, December 23, 1964, Flying Tiger Line Flight 282 arrived at San Francisco International Airport from Japan.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0014,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The Siege of Madrid was a two and a half year siege of the Spanish capital city of Madrid, during the Spanish Civil War of 1936 to 1939.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0015,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The Peruvian warship managed to outrun the British squadron after a fierce exchange of fire.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0016,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The 1984 Air Canada Cup was Canada's sixth annual national midget 'AAA' hockey championship, which was played April 17 – 21, 1984 at the North Bay Memorial Gardens in North Bay, Ontario.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0017,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""On 29 July, two more suspects were arrested in London.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0018,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The 2001–2002 India–Pakistan standoff was a military standoff between India and Pakistan that resulted in the massing of troops on either side of the border and along the Line of Control (LoC) in the region of Kashmir.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0019,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""De Grasse hastily prepared most of his fleet for battle—24 ships of the line—and sailed out to meet him.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0020,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Around the same time, IJA and IJN air forces began an air superiority campaign around the Solomon Islands and New Guinea.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0021,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The fire began on 2 January 2015 during a day of extreme heat and lasted until 9 January 2015.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0022,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The Columbine High School massacre was a school shooting and attempted bombing that occurred on April 20, 1999, at Columbine High School in Columbine, Colorado, United States.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0023,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The mass grave was discovered in October 1992 and guarded by the United Nations Protection Force which had deployed to the area earlier that year.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0024,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The massacre was presented as retaliation for the assassination of newly elected Lebanese president Bachir Gemayel, the leader of the Lebanese Kataeb Party.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0025,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""It showcased material from her twelfth studio album, \""MDNA\"" (2012).\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0026,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The 2015 London Marathon took place on 26 April 2015.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0027,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Throughout Florida, there were three fatalities and approximately $12 million (1948 USD) in damage, over half of which was inflicted on crops.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0028,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The tropical depression that would later develop into the destructive hurricane was first located east of the Lesser Antilles on October 30, and tracked westward into the Caribbean Sea, reaching tropical storm strength the next day.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0029,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""EDSA is an acronym derived from Epifanio de los Santos Avenue, the major thoroughfare connecting five cities in Metro Manila, namely Pasay, Makati, Mandaluyong, Quezon City, and Caloocan, with the revolution's epicentre at the EDSA Shrine church at the northern tip of Ortigas Center, a business district.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0030,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The album was preceded by the lead single \""Music Everywhere\"" and followed by the promotional singles \""Impatient\"" and \""Slam\"".\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0031,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The second attack minutes later targeted a bus station at a nearby market in a commercial area called Iskan and wounded one civilian.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0032,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Intimate and Live was the fifth concert tour by Australian recording artist Kylie Minogue, in support of her sixth studio album, \""Impossible Princess\"" (1997).\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0033,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Andy Murray and Serena Williams were the defending champions in the singles events.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0034,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""The TNA X Division Championship was defended by Samoa Joe against Christopher Daniels at the event, which Joe won to retain the title.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0035,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Soon, the alliance of the Kurdish and People's Azerbaijani forces, supported in arms and training by the Soviet Union, engaged in fighting with Iranian forces, resulting in a total of 2,000 casualties.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0036,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""In the face of Byzantine reinforcements, the new Arab leader, Muhammad ibn Abi'l-Jawari, abandoned the siege and withdrew to the southwestern part of the island, which remained in their hands.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""
+VAL_0037,"You are an information-extraction assistant. Extract all events from the given text. Return only what’s requested; no explanations.
+
+
+TASK: Extract every event in the text. For each event, write:
+<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.
+
+Text:
+""\""Once inland, Betsy was slow to weaken, and persisted for two more days before degenerating into an extratropical storm; these remnants lasted until September 13.\""""
+
+Rules:
+- Use <EVENTSEP> exactly as a separator between events.
+- Include ALL events mentioned.
+- Keep it one line per event: ""<EVENTSEP> Event type: X. Trigger: y."""

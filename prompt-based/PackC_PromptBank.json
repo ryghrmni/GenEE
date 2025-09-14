@@ -1,0 +1,81 @@
+{
+  "system_preface": "You are an information-extraction assistant.\nExtract every event mentioned in the text.\nReturn exactly the requested format. No explanations.",
+  "shells": {
+    "plain": "TASK: Extract every event in the text. For each event, write a line:\nEvent type: <TYPE>. Trigger: <TRIGGER>.\n\nText:\n\"{CHUNK}\"\n\nRules:\n- Include ALL events mentioned.\n- One line per event; no extra commentary.",
+    "eventsep": "TASK: Extract every event in the text. For each event, write a line:\n<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.\n\nText:\n\"{CHUNK}\"\n\nRules:\n- Use <EVENTSEP> exactly as the separator.\n- Include ALL events mentioned.\n- One line per event; no extra commentary."
+  },
+  "shots": {
+    "plain_0shot": {
+      "k": 0,
+      "variant": "plain",
+      "prompt": "You are an information-extraction assistant.\nExtract every event mentioned in the text.\nReturn exactly the requested format. No explanations.\n\nTASK: Extract every event in the text. For each event, write a line:\nEvent type: <TYPE>. Trigger: <TRIGGER>.\n\nText:\n\"{CHUNK}\"\n\nRules:\n- Include ALL events mentioned.\n- One line per event; no extra commentary.",
+      "exemplar_indices": []
+    },
+    "plain_1shot": {
+      "k": 1,
+      "variant": "plain",
+      "prompt": "You are an information-extraction assistant.\nExtract every event mentioned in the text.\nReturn exactly the requested format. No explanations.\n\nExample\nText: \"The project was an ambitious and risky venture aiming to conquer, with a thousand men, a kingdom with a larger regular army and a more powerful navy.\"\nOutput:\nEvent type: Self_motion. Trigger: venture.\nEvent type: Aiming. Trigger: aiming.\nEvent type: Conquering. Trigger: conquer.\n\n--- Now do the same for:\n\nTASK: Extract every event in the text. For each event, write a line:\nEvent type: <TYPE>. Trigger: <TRIGGER>.\n\nText:\n\"{CHUNK}\"\n\nRules:\n- Include ALL events mentioned.\n- One line per event; no extra commentary.",
+      "exemplar_indices": [
+        0
+      ]
+    },
+    "plain_3shot": {
+      "k": 3,
+      "variant": "plain",
+      "prompt": "You are an information-extraction assistant.\nExtract every event mentioned in the text.\nReturn exactly the requested format. No explanations.\n\nExample\nText: \"The project was an ambitious and risky venture aiming to conquer, with a thousand men, a kingdom with a larger regular army and a more powerful navy.\"\nOutput:\nEvent type: Self_motion. Trigger: venture.\nEvent type: Aiming. Trigger: aiming.\nEvent type: Conquering. Trigger: conquer.\n---\nExample\nText: \"The sea venture was the only desired action that was jointly decided by the\"\nOutput:\nEvent type: Self_motion. Trigger: venture.\nEvent type: Self_motion. Trigger: action.\nEvent type: Deciding. Trigger: decided.\n---\nExample\nText: \"The murder of Leigh Leigh, born Leigh Rennea Mears, occurred on 3 November 1989 while she was attending a 16-year-old boy's birthday party at Stockton Beach, New South Wales, on the east coast of Australia.\"\nOutput:\nEvent type: Coming_to_be. Trigger: occurred.\nEvent type: Committing_crime. Trigger: murder.\nEvent type: Participation. Trigger: attending.\n\n--- Now do the same for:\n\nTASK: Extract every event in the text. For each event, write a line:\nEvent type: <TYPE>. Trigger: <TRIGGER>.\n\nText:\n\"{CHUNK}\"\n\nRules:\n- Include ALL events mentioned.\n- One line per event; no extra commentary.",
+      "exemplar_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    "plain_5shot": {
+      "k": 5,
+      "variant": "plain",
+      "prompt": "You are an information-extraction assistant.\nExtract every event mentioned in the text.\nReturn exactly the requested format. No explanations.\n\nExample\nText: \"The project was an ambitious and risky venture aiming to conquer, with a thousand men, a kingdom with a larger regular army and a more powerful navy.\"\nOutput:\nEvent type: Self_motion. Trigger: venture.\nEvent type: Aiming. Trigger: aiming.\nEvent type: Conquering. Trigger: conquer.\n---\nExample\nText: \"The sea venture was the only desired action that was jointly decided by the\"\nOutput:\nEvent type: Self_motion. Trigger: venture.\nEvent type: Self_motion. Trigger: action.\nEvent type: Deciding. Trigger: decided.\n---\nExample\nText: \"The murder of Leigh Leigh, born Leigh Rennea Mears, occurred on 3 November 1989 while she was attending a 16-year-old boy's birthday party at Stockton Beach, New South Wales, on the east coast of Australia.\"\nOutput:\nEvent type: Coming_to_be. Trigger: occurred.\nEvent type: Committing_crime. Trigger: murder.\nEvent type: Participation. Trigger: attending.\n---\nExample\nText: \"Her naked body was found in the sand dunes nearby the following morning, with severe genital damage and a crushed skull.\"\nOutput:\nEvent type: Bodily_harm. Trigger: crushed.\nEvent type: Damaging. Trigger: damage.\nEvent type: Know. Trigger: found.\n---\nExample\nText: \"Matthew Grant Webster, an 18-year-old who acted as a bouncer at the event, pleaded guilty to her murder and was sentenced to 20 years in prison with a 14-year non-parole period.\"\nOutput:\nEvent type: Legal_rulings. Trigger: sentenced.\nEvent type: Request. Trigger: pleaded.\nEvent type: Committing_crime. Trigger: murder.\n\n--- Now do the same for:\n\nTASK: Extract every event in the text. For each event, write a line:\nEvent type: <TYPE>. Trigger: <TRIGGER>.\n\nText:\n\"{CHUNK}\"\n\nRules:\n- Include ALL events mentioned.\n- One line per event; no extra commentary.",
+      "exemplar_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "eventsep_0shot": {
+      "k": 0,
+      "variant": "eventsep",
+      "prompt": "You are an information-extraction assistant.\nExtract every event mentioned in the text.\nReturn exactly the requested format. No explanations.\n\nTASK: Extract every event in the text. For each event, write a line:\n<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.\n\nText:\n\"{CHUNK}\"\n\nRules:\n- Use <EVENTSEP> exactly as the separator.\n- Include ALL events mentioned.\n- One line per event; no extra commentary.",
+      "exemplar_indices": []
+    },
+    "eventsep_1shot": {
+      "k": 1,
+      "variant": "eventsep",
+      "prompt": "You are an information-extraction assistant.\nExtract every event mentioned in the text.\nReturn exactly the requested format. No explanations.\n\nExample\nText: \"The project was an ambitious and risky venture aiming to conquer, with a thousand men, a kingdom with a larger regular army and a more powerful navy.\"\nOutput:\n<EVENTSEP> Event type: Self_motion. Trigger: venture.\n<EVENTSEP> Event type: Aiming. Trigger: aiming.\n<EVENTSEP> Event type: Conquering. Trigger: conquer.\n\n--- Now do the same for:\n\nTASK: Extract every event in the text. For each event, write a line:\n<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.\n\nText:\n\"{CHUNK}\"\n\nRules:\n- Use <EVENTSEP> exactly as the separator.\n- Include ALL events mentioned.\n- One line per event; no extra commentary.",
+      "exemplar_indices": [
+        0
+      ]
+    },
+    "eventsep_3shot": {
+      "k": 3,
+      "variant": "eventsep",
+      "prompt": "You are an information-extraction assistant.\nExtract every event mentioned in the text.\nReturn exactly the requested format. No explanations.\n\nExample\nText: \"The project was an ambitious and risky venture aiming to conquer, with a thousand men, a kingdom with a larger regular army and a more powerful navy.\"\nOutput:\n<EVENTSEP> Event type: Self_motion. Trigger: venture.\n<EVENTSEP> Event type: Aiming. Trigger: aiming.\n<EVENTSEP> Event type: Conquering. Trigger: conquer.\n---\nExample\nText: \"The sea venture was the only desired action that was jointly decided by the\"\nOutput:\n<EVENTSEP> Event type: Self_motion. Trigger: venture.\n<EVENTSEP> Event type: Self_motion. Trigger: action.\n<EVENTSEP> Event type: Deciding. Trigger: decided.\n---\nExample\nText: \"The murder of Leigh Leigh, born Leigh Rennea Mears, occurred on 3 November 1989 while she was attending a 16-year-old boy's birthday party at Stockton Beach, New South Wales, on the east coast of Australia.\"\nOutput:\n<EVENTSEP> Event type: Coming_to_be. Trigger: occurred.\n<EVENTSEP> Event type: Committing_crime. Trigger: murder.\n<EVENTSEP> Event type: Participation. Trigger: attending.\n\n--- Now do the same for:\n\nTASK: Extract every event in the text. For each event, write a line:\n<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.\n\nText:\n\"{CHUNK}\"\n\nRules:\n- Use <EVENTSEP> exactly as the separator.\n- Include ALL events mentioned.\n- One line per event; no extra commentary.",
+      "exemplar_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    "eventsep_5shot": {
+      "k": 5,
+      "variant": "eventsep",
+      "prompt": "You are an information-extraction assistant.\nExtract every event mentioned in the text.\nReturn exactly the requested format. No explanations.\n\nExample\nText: \"The project was an ambitious and risky venture aiming to conquer, with a thousand men, a kingdom with a larger regular army and a more powerful navy.\"\nOutput:\n<EVENTSEP> Event type: Self_motion. Trigger: venture.\n<EVENTSEP> Event type: Aiming. Trigger: aiming.\n<EVENTSEP> Event type: Conquering. Trigger: conquer.\n---\nExample\nText: \"The sea venture was the only desired action that was jointly decided by the\"\nOutput:\n<EVENTSEP> Event type: Self_motion. Trigger: venture.\n<EVENTSEP> Event type: Self_motion. Trigger: action.\n<EVENTSEP> Event type: Deciding. Trigger: decided.\n---\nExample\nText: \"The murder of Leigh Leigh, born Leigh Rennea Mears, occurred on 3 November 1989 while she was attending a 16-year-old boy's birthday party at Stockton Beach, New South Wales, on the east coast of Australia.\"\nOutput:\n<EVENTSEP> Event type: Coming_to_be. Trigger: occurred.\n<EVENTSEP> Event type: Committing_crime. Trigger: murder.\n<EVENTSEP> Event type: Participation. Trigger: attending.\n---\nExample\nText: \"Her naked body was found in the sand dunes nearby the following morning, with severe genital damage and a crushed skull.\"\nOutput:\n<EVENTSEP> Event type: Bodily_harm. Trigger: crushed.\n<EVENTSEP> Event type: Damaging. Trigger: damage.\n<EVENTSEP> Event type: Know. Trigger: found.\n---\nExample\nText: \"Matthew Grant Webster, an 18-year-old who acted as a bouncer at the event, pleaded guilty to her murder and was sentenced to 20 years in prison with a 14-year non-parole period.\"\nOutput:\n<EVENTSEP> Event type: Legal_rulings. Trigger: sentenced.\n<EVENTSEP> Event type: Request. Trigger: pleaded.\n<EVENTSEP> Event type: Committing_crime. Trigger: murder.\n\n--- Now do the same for:\n\nTASK: Extract every event in the text. For each event, write a line:\n<EVENTSEP> Event type: <TYPE>. Trigger: <TRIGGER>.\n\nText:\n\"{CHUNK}\"\n\nRules:\n- Use <EVENTSEP> exactly as the separator.\n- Include ALL events mentioned.\n- One line per event; no extra commentary.",
+      "exemplar_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  }
+}

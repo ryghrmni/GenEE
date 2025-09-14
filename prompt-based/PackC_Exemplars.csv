@@ -1,0 +1,101 @@
+text,plain_output,eventsep_output,n_sent,n_events,density_bin,event_types,line_no,
+"The project was an ambitious and risky venture aiming to conquer, with a thousand men, a kingdom with a larger regular army and a more powerful navy.","Event type: Self_motion. Trigger: venture.
+Event type: Aiming. Trigger: aiming.
+Event type: Conquering. Trigger: conquer.","<EVENTSEP> Event type: Self_motion. Trigger: venture.
+<EVENTSEP> Event type: Aiming. Trigger: aiming.
+<EVENTSEP> Event type: Conquering. Trigger: conquer.",1,3,med,"['Aiming', 'Conquering', 'Self_motion']",3,
+The sea venture was the only desired action that was jointly decided by the,"Event type: Self_motion. Trigger: venture.
+Event type: Self_motion. Trigger: action.
+Event type: Deciding. Trigger: decided.","<EVENTSEP> Event type: Self_motion. Trigger: venture.
+<EVENTSEP> Event type: Self_motion. Trigger: action.
+<EVENTSEP> Event type: Deciding. Trigger: decided.",1,3,med,"['Deciding', 'Self_motion']",5,
+"The murder of Leigh Leigh, born Leigh Rennea Mears, occurred on 3 November 1989 while she was attending a 16-year-old boy's birthday party at Stockton Beach, New South Wales, on the east coast of Australia.","Event type: Coming_to_be. Trigger: occurred.
+Event type: Committing_crime. Trigger: murder.
+Event type: Participation. Trigger: attending.","<EVENTSEP> Event type: Coming_to_be. Trigger: occurred.
+<EVENTSEP> Event type: Committing_crime. Trigger: murder.
+<EVENTSEP> Event type: Participation. Trigger: attending.",1,3,med,"['Coming_to_be', 'Committing_crime', 'Participation']",8,
+"Her naked body was found in the sand dunes nearby the following morning, with severe genital damage and a crushed skull.","Event type: Bodily_harm. Trigger: crushed.
+Event type: Damaging. Trigger: damage.
+Event type: Know. Trigger: found.","<EVENTSEP> Event type: Bodily_harm. Trigger: crushed.
+<EVENTSEP> Event type: Damaging. Trigger: damage.
+<EVENTSEP> Event type: Know. Trigger: found.",1,3,med,"['Bodily_harm', 'Damaging', 'Know']",11,
+"Matthew Grant Webster, an 18-year-old who acted as a bouncer at the event, pleaded guilty to her murder and was sentenced to 20 years in prison with a 14-year non-parole period.","Event type: Legal_rulings. Trigger: sentenced.
+Event type: Request. Trigger: pleaded.
+Event type: Committing_crime. Trigger: murder.","<EVENTSEP> Event type: Legal_rulings. Trigger: sentenced.
+<EVENTSEP> Event type: Request. Trigger: pleaded.
+<EVENTSEP> Event type: Committing_crime. Trigger: murder.",1,3,med,"['Committing_crime', 'Legal_rulings', 'Request']",12,
+"The investigation of Leigh's murder proved controversial, however, as several people who admitted to various crimes, including assaulting Leigh, were never charged; nor was anyone ever charged with her sexual assault.","Event type: Judgment_communication. Trigger: charged.
+Event type: Judgment_communication. Trigger: charged.
+Event type: Committing_crime. Trigger: murder.","<EVENTSEP> Event type: Judgment_communication. Trigger: charged.
+<EVENTSEP> Event type: Judgment_communication. Trigger: charged.
+<EVENTSEP> Event type: Committing_crime. Trigger: murder.",1,3,med,"['Committing_crime', 'Judgment_communication']",15,
+"Initially focusing on her sexual assault and murder, media attention later concentrated more on the lack of parental supervision and the drugs and alcohol at the party, and on Leigh's sexuality.","Event type: Aiming. Trigger: focusing.
+Event type: Aiming. Trigger: concentrated.
+Event type: Committing_crime. Trigger: murder.","<EVENTSEP> Event type: Aiming. Trigger: focusing.
+<EVENTSEP> Event type: Aiming. Trigger: concentrated.
+<EVENTSEP> Event type: Committing_crime. Trigger: murder.",1,3,med,"['Aiming', 'Committing_crime']",19,
+The media coverage of the murder has been cited as an example of blaming the victim.,"Event type: Adducing. Trigger: cited.
+Event type: Committing_crime. Trigger: murder.
+Event type: Judgment_communication. Trigger: blaming.","<EVENTSEP> Event type: Adducing. Trigger: cited.
+<EVENTSEP> Event type: Committing_crime. Trigger: murder.
+<EVENTSEP> Event type: Judgment_communication. Trigger: blaming.",1,3,med,"['Adducing', 'Committing_crime', 'Judgment_communication']",20,
+Hurricane Jerry caused minor damage in Texas and flash flooding in Kentucky and Virginia in October 1989.,"Event type: Causation. Trigger: caused.
+Event type: Damaging. Trigger: damage.
+Event type: Motion. Trigger: flooding.","<EVENTSEP> Event type: Causation. Trigger: caused.
+<EVENTSEP> Event type: Damaging. Trigger: damage.
+<EVENTSEP> Event type: Motion. Trigger: flooding.",1,3,med,"['Causation', 'Damaging', 'Motion']",22,
+Jerry continuously deepened until October 14 and then maintained intensity while curving northeastward and briefly decelerating.,"Event type: Motion_directional. Trigger: curving.
+Event type: Preserving. Trigger: maintained.
+Event type: Cause_change_of_strength. Trigger: deepened.","<EVENTSEP> Event type: Motion_directional. Trigger: curving.
+<EVENTSEP> Event type: Preserving. Trigger: maintained.
+<EVENTSEP> Event type: Cause_change_of_strength. Trigger: deepened.",1,3,med,"['Cause_change_of_strength', 'Motion_directional', 'Preserving']",25,
+He was escorted from the hospital by two police officers who arrested him to prevent a breach of the peace.,"Event type: Patrolling. Trigger: escorted.
+Event type: Preventing_or_letting. Trigger: prevent.
+Event type: Arrest. Trigger: arrested.","<EVENTSEP> Event type: Patrolling. Trigger: escorted.
+<EVENTSEP> Event type: Preventing_or_letting. Trigger: prevent.
+<EVENTSEP> Event type: Arrest. Trigger: arrested.",1,3,med,"['Arrest', 'Patrolling', 'Preventing_or_letting']",46,
+On arrival at the police station Alder was,"Event type: Carry_goods. Trigger: carried.
+Event type: Placing. Trigger: placed.
+Event type: Motion. Trigger: dragged.","<EVENTSEP> Event type: Carry_goods. Trigger: carried.
+<EVENTSEP> Event type: Placing. Trigger: placed.
+<EVENTSEP> Event type: Motion. Trigger: dragged.",1,3,med,"['Carry_goods', 'Motion', 'Placing']",47,
+A post mortem indicated that the head injury alone would not have killed him.,"Event type: Killing. Trigger: killed.
+Event type: Check. Trigger: indicated.
+Event type: Bodily_harm. Trigger: injury.","<EVENTSEP> Event type: Killing. Trigger: killed.
+<EVENTSEP> Event type: Check. Trigger: indicated.
+<EVENTSEP> Event type: Bodily_harm. Trigger: injury.",1,3,med,"['Bodily_harm', 'Check', 'Killing']",50,
+A coroner's jury in 2000 returned a verdict that Alder was unlawfully killed.,"Event type: Killing. Trigger: killed.
+Event type: Legal_rulings. Trigger: verdict.
+Event type: Giving. Trigger: returned.","<EVENTSEP> Event type: Killing. Trigger: killed.
+<EVENTSEP> Event type: Legal_rulings. Trigger: verdict.
+<EVENTSEP> Event type: Giving. Trigger: returned.",1,3,med,"['Giving', 'Killing', 'Legal_rulings']",52,
+"In 2002 five police officers went on trial charged with Alder's manslaughter and misconduct in public office, but were acquitted on the orders of the judge.","Event type: Legal_rulings. Trigger: acquitted.
+Event type: Judgment_communication. Trigger: charged.
+Event type: Criminal_investigation. Trigger: trial.","<EVENTSEP> Event type: Legal_rulings. Trigger: acquitted.
+<EVENTSEP> Event type: Judgment_communication. Trigger: charged.
+<EVENTSEP> Event type: Criminal_investigation. Trigger: trial.",1,3,med,"['Criminal_investigation', 'Judgment_communication', 'Legal_rulings']",53,
+"In November 2011 the government formally apologised to Alder's family in the European Court of Human Rights, admitting that it had breached its obligations with regard to","Event type: Preserving. Trigger: preserving.
+Event type: Judgment_communication. Trigger: apologised.
+Event type: Reveal_secret. Trigger: admitting.","<EVENTSEP> Event type: Preserving. Trigger: preserving.
+<EVENTSEP> Event type: Judgment_communication. Trigger: apologised.
+<EVENTSEP> Event type: Reveal_secret. Trigger: admitting.",1,3,med,"['Judgment_communication', 'Preserving', 'Reveal_secret']",55,
+"The gunman, 22-year-old Jacob Tyler Roberts, ran into the shopping center wearing tactical clothing and a hockey mask and opened fire on shoppers and employees with a stolen Stag Arms AR-15 rifle.","Event type: Self_motion. Trigger: ran.
+Event type: Use_firearm. Trigger: fire.
+Event type: Wearing. Trigger: wearing.","<EVENTSEP> Event type: Self_motion. Trigger: ran.
+<EVENTSEP> Event type: Use_firearm. Trigger: fire.
+<EVENTSEP> Event type: Wearing. Trigger: wearing.",1,3,med,"['Self_motion', 'Use_firearm', 'Wearing']",58,
+"This albums finds Monge going the indie route by releasing it in her own imprint, Roma Entertainment, and it is available as a digital download at iTunes and Amazon.","Event type: Know. Trigger: finds.
+Event type: Motion. Trigger: going.
+Event type: Publishing. Trigger: releasing.","<EVENTSEP> Event type: Know. Trigger: finds.
+<EVENTSEP> Event type: Motion. Trigger: going.
+<EVENTSEP> Event type: Publishing. Trigger: releasing.",1,3,med,"['Know', 'Motion', 'Publishing']",71,
+"Shot in the head as he watched the play, Lincoln died the following day at 7:22 am, in the Petersen House opposite the theater.","Event type: Perception_active. Trigger: watched.
+Event type: Use_firearm. Trigger: shot.
+Event type: Death. Trigger: died.","<EVENTSEP> Event type: Perception_active. Trigger: watched.
+<EVENTSEP> Event type: Use_firearm. Trigger: shot.
+<EVENTSEP> Event type: Death. Trigger: died.",1,3,med,"['Death', 'Perception_active', 'Use_firearm']",73,
+"Occurring near the end of the American Civil War, the assassination was part of a larger conspiracy intended by Booth to revive the Confederate cause by eliminating the three most important officials of the United States government.","Event type: Killing. Trigger: assassination.
+Event type: Recovering. Trigger: revive.
+Event type: Military_operation. Trigger: war.","<EVENTSEP> Event type: Killing. Trigger: assassination.
+<EVENTSEP> Event type: Recovering. Trigger: revive.
+<EVENTSEP> Event type: Military_operation. Trigger: war.",1,3,med,"['Killing', 'Military_operation', 'Recovering']",75,
